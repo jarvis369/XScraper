@@ -64,14 +64,14 @@ public class TestCases {
     }
 
     @Test
-    public void testcase01() throws IOException, InterruptedException {
+    public void testCase01() throws IOException, InterruptedException {
         System.out.println("📌 Starting testcase01 - Hockey Teams Scraper");
         testCase01_scrapeHockeyTeamsWithLowWinPercent();
         System.out.println("✅ testcase01 executed successfully.\n");
     }
 
     @Test
-    public void testcase02() throws IOException, InterruptedException {
+    public void testCase02() throws IOException, InterruptedException {
         System.out.println("📌 Starting testcase02 - Oscar Winners Scraper");
         testCase02_scrapeOscarWinners();
         System.out.println("✅ testcase02 executed successfully.\n");
