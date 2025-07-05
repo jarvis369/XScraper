@@ -24,6 +24,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation 'org.seleniumhq.selenium:selenium-java:4.21.0'
 
+    // Jackson Databind
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
+
 }
 
 buildDir = 'build'
