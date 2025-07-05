@@ -24,11 +24,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.logging.Level;
 // import io.github.bonigarcia.wdm.WebDriverManager;
-import demo.wrappers.Wrappers;
+//import demo.wrappers.Wrappers;
 
 public class TestCases {
     ChromeDriver driver;
-    Wrappers wrapper;
+    //Wrappers wrapper;
 
     /*
      * TODO: Write your tests here with testng @Test annotation.
@@ -60,7 +60,7 @@ public class TestCases {
         driver = new ChromeDriver(options);
 
         driver.manage().window().maximize();
-        wrapper = new Wrappers(driver);
+        //wrapper = new Wrappers(driver);
     }
 
     @Test
